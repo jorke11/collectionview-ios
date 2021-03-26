@@ -15,6 +15,8 @@
 		14D00D29229B46A0004568E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D00D27229B46A0004568E2 /* LaunchScreen.storyboard */; };
 		14D00D34229B46A0004568E2 /* collectionViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D00D33229B46A0004568E2 /* collectionViewDemoTests.swift */; };
 		14D00D3F229B46A0004568E2 /* collectionViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D00D3E229B46A0004568E2 /* collectionViewDemoUITests.swift */; };
+		14D00D4D229B4745004568E2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D00D4C229B4745004568E2 /* CollectionViewCell.swift */; };
+		14D00D4F229B4DB6004568E2 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D00D4E229B4DB6004568E2 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		14D00D3A229B46A0004568E2 /* collectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D00D3E229B46A0004568E2 /* collectionViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewDemoUITests.swift; sourceTree = "<group>"; };
 		14D00D40229B46A0004568E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D00D4C229B4745004568E2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		14D00D4E229B4DB6004568E2 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				14D00D1B229B469F004568E2 /* AppDelegate.swift */,
 				14D00D1D229B469F004568E2 /* ViewController.swift */,
 				14D00D1F229B469F004568E2 /* Main.storyboard */,
+				14D00D4E229B4DB6004568E2 /* ImageViewController.swift */,
+				14D00D4C229B4745004568E2 /* CollectionViewCell.swift */,
 				14D00D25229B46A0004568E2 /* Assets.xcassets */,
 				14D00D27229B46A0004568E2 /* LaunchScreen.storyboard */,
 				14D00D2A229B46A0004568E2 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				14D00D1E229B469F004568E2 /* ViewController.swift in Sources */,
 				14D00D24229B469F004568E2 /* collectionViewDemo.xcdatamodeld in Sources */,
+				14D00D4F229B4DB6004568E2 /* ImageViewController.swift in Sources */,
+				14D00D4D229B4745004568E2 /* CollectionViewCell.swift in Sources */,
 				14D00D1C229B469F004568E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
